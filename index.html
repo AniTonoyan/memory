@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="menu">
+    <div class="section-left">
+        <p>Winning Number </p>
+        <div class="win-number">
+            <input type="button" value ="-" class="minus" id="minus" onclick="changeNumber('minus')">
+            <div id="winning-number"></div>
+            <input type="button" value ="+" class="plus" id="plus" onclick="changeNumber('plus')">
+        </div>
+    </div>
+    <div class="section-right">
+        <select id="table-size"></select>
+    </div>
+    <button class="start" onclick ="startGame()">Start Game</button>
+</div>
+
+<div id="zoomButton">
+        <input type="button" value ="-" class="minus" onclick="zoomItem('minus')">
+        <div class="zoom-content">Zoom</div>
+        <input type="button" value ="+" class="plus" onclick="zoomItem('plus')">
+</div>
+<div id ="container">   
+    <!-- <button id="reset" onclick ="resetGame()">Reset Game</button> -->
+</div>
+<script src="script.js"></script>
+</body>
+</html>

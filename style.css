@@ -1,0 +1,178 @@
+body {
+    background-image: url("images/fon.jpg");
+}
+
+#container {
+    /*width: 420px;*/
+    margin: auto;
+    margin-top: 50px;
+    /* display: flex; */
+}
+
+#menu {
+    width: 500px;
+    height: 315px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    background: #6f96c7;
+}
+
+.section-left {
+    width: 215px;
+    height: 230px;
+    float: left;
+    margin:15px;
+    border: 2px solid #635b5b;
+    text-align: center;
+}
+
+.section-left p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.win-number {
+    margin-left: 20px;
+}
+
+.section-right {
+    width: 215px;
+    float: left;
+    height: 230px;
+    margin: 15px;
+    border: 2px solid #635b5b;
+}
+
+input {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    float: left;
+    margin: 0 7px;
+    background: #1E1C1C;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #BCC6C2;
+    border-radius: 24px;
+    box-shadow: 0px 0px 3px #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+#winning-number {
+    text-align: center;
+    font-size: 18px;    
+    line-height: 26px;
+    width: 60px;
+    height: 26px;
+    float:left;
+    box-shadow: 0px 0px 3px #ffffff;
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 25px;
+    background: black;
+    padding: 15px;
+}
+
+.start {
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    margin: 0 4px;
+    background: #141111;
+    color: #B0A4A4;
+    font-weight: bold;
+    border: 2px solid #BCC6C2;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px #ffffff;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.start:hover {
+    color: #ffffff;
+}
+
+.show {
+    background: #ff1a38;
+    pointer-events: none;
+}
+
+.matched {
+    background: #276aff;
+    color: #ffffff;
+}
+
+.item span {
+    display: none;
+}
+
+.item.show span {
+    display: inline;
+}
+
+.item.matched span {
+    display: inline;
+}
+
+select {
+    width: 180px;
+    height: 32px;
+    border: 1px solid #000000;
+    font-size: 14px;
+    outline: none;
+    color: white;
+    border-radius: 2px;
+    background: #000;
+    margin: 5px;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+#reset {
+    display: none;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    margin: 0 4px;
+    background: #B83131;
+    color: #B0A4A4;
+    font-weight: bold;
+    border: 2px solid #BCC6C2;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px #ffffff;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+}
+
+#zoomButton {
+    display: none;
+}
+.zoom-content {
+    text-align: center;
+    font-size: 18px;    
+    line-height: 26px;
+    width: 60px;
+    height: 26px;
+    float:left;
+    box-shadow: 0px 0px 3px black;
+}
