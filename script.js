@@ -8,7 +8,7 @@ var timer;
 var winningNumber;
 
 function resetGame() {
-    alert ('aaaaaa');
+    alert ('Reset Game');
 }
 
 function setWinNum(winNum) {
@@ -42,10 +42,9 @@ function startGame() {
 
     document.getElementById("menu").style.display = "none";
     document.getElementById("zoomButton").style.display = "block";
-    //document.getElementById("reset").style.display = "block";
+   
 
    // var width = (Math.min(window.innerHeight, window.innerWidth)) / $tableSize.value;
-    //console.log(width);
     let widthValue = $tableSize.value * 66;
     //var widthValue = ($tableSize.value * width)/2 ;
 
